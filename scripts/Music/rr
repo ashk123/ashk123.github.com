@@ -1,0 +1,21 @@
+#!/usr/bin/bash
+
+rnd=0
+asd=$(cat ~/.songs)
+dsa=($asd)
+if [[ $1 == "c" ]]; then
+	echo "you have ${#dsa[@]} musics !";
+	exit;
+fi
+while :
+do
+	rnd=$(( $RANDOM % ${#dsa[@]} ))
+	var=$(cat /tmp/rmuch_ca);
+	if [[ $var == $rnd ]]; then
+		continue
+	else
+		echo $rnd > /tmp/rmuch_ca
+		open ${dsa[$rnd]} # When using WSL
+		break
+	fi
+done

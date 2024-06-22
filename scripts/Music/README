@@ -1,0 +1,5 @@
+A Simple Random Music Selector With Bash
+For running this script, you need a ~/.songs file
+Fill it with your favorite songs and split them with
+A simple new line (\n)
+Notice: Change the Open program with whatever you want
