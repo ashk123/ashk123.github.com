@@ -1,0 +1,32 @@
+body {
+    background: url(assets/1390156669.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+.asd {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    float: right;
+    text-align:center;	
+}
+.center{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    font-size: 17px;
+}
+a {
+  text-decoration: none;
+  color: #121A36;
+  text-shadow: 1px 1px 10px honeydew;
+}
+.center a {
+    color:#B8E9FF;
+    text-shadow: 1px 1px 10px honeydew;
+    text-decoration: none;
+}
